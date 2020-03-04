@@ -1,0 +1,23 @@
+Command line argument error: Argument "query". File is not accessible:  `nad4L.fasta'
+Command line argument error: Argument "query". File is not accessible:  `nad4L.fasta'
+Command line argument error: Argument "query". File is not accessible:  `nad4L.fasta'
+==> assn04/omolewu_assn04.1.out <==
+Citrullus_nad4L	Citrullus_nad4L	100.000	303	0	0	1	303	1	303	1.44e-164	560
+
+==> assn04/omolewu.assn04.1.out <==
+Citrullus_nad4L	Citrullus_nad4L	100.000	303	0	0	1	303	1	303	1.44e-164	560
+
+==> assn04/omolewu_assn04.2.out <==
+Citrullus_nad4L	Citrullus_nad4	100.000	303	0	0	1	303	1498	1800	1.84e-162	560
+
+==> assn04/omolewu_assn04.3.out <==
+Citrullus_nad4L	watermelon	100.000	303	0	0	1	303	366432	366130	1.82e-161	560
+
+==> assn04/omolewu_assn04.4.out <==
+Citrullus_nad4L	Citrullus	100.000	303	0	0	1	303	366432	366130	1.10e-159	560
+
+==> assn04/omolewu_assn04.6.out <==
+Citrullus_nad4L	watermelon	100.000	303	0	0	1	303	366432	366130	1.20e-173	601
+
+==> assn04/omolewu_assn04.8.out <==
+Arabidopsis	Arabidopsis	100.000	366924	0	0	1	366924	1	366924	0.0	6.776e+05
