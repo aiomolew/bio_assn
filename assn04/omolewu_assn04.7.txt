@@ -1,0 +1,4 @@
+The raw score increases with large database size.
+The bit score is independent of the size of the database.
+e-value increases as the size ofd the database increases.
+

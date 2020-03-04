@@ -1,0 +1,16 @@
+#!/bin/bash
+#PBS -N BLAST
+#PBS -q student8core
+#PBS -j oe
+#PBS -m abe
+#PBS -M aiomolew@uark.edu
+#PBS -o BLAST.$PBS_JOBID
+#PBS -l nodes=1:ppn=8
+#PBS -l walltime=00:00:30:00
+
+
+module load blast/2.4.0+
+
+cat watermelon_nt/*.fasta |  makeblastdb -dbtype nucl -out nt -title -nt
+
+blastn -query nad4L.fasta -db nt -outfmt 6 &> omolewu_assn04.2.out 

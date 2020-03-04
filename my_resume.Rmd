@@ -1,0 +1,55 @@
+---
+title: "My resume"
+author: "Abigeal Omolewu"
+date: "3/3/2020"
+output: html_document
+---
+
+Abigeal Omolewu
+Fayetteville, Arkansas 72703
+aiomolew@urak.edu 479-799-7519
+
+Education and Credentials
+
+MAsters of Science (August 2019 - Present)
+University of Arkansas fayetteville
+
+Post Graduate Diploma in Management(October 2011)
+University of Agriculture Makurdi, Benue State, Nigeria
+
+HND in Agricultural Engineering (June 2007)
+Rufus Giwa Polytechnic Owo, Onodo State, Nigeria
+
+Certifications
+Microsoft office Technology specialist: Excel 2007.
+Datstar Leadership Academy
+
+Awards
+The foundation for the international exchange of student(FIES) scholarship 2018.
+OMNI endowed international student scholership 2018
+Alumni legacy scholarship 2018 and 2019
+International cultural team scholarship 2018 and 2019
+
+
+Career Experience
+
+Eldridad college (Secondary School) Lagos, Nigeria
+Teacher/Assistant school Administrator 9/2013 - 12/2013
+
+Access Bank plc, Nigeria
+Teller/Funds transfer officer, 3/2009 - 2/2012
+paying and receiving cash, E-tranzact, bill payment through interswitch, funds transfer, cash shipment, Issuance of bankers' and managers' ceque, Bank representative at a telecom office.
+
+Intercontinental Bank plc, umuahia, Abia State, Nigeria. 9/2007 - 8/2008
+Relationship/marketing officer and customer service officer
+
+
+Volunteer Experience
+International cultural team (ICT) University of Arkansas Fayetteville 01/2018 - present
+Lake sequoyah clean up 10/2017
+University fo Arkansas Microelectronic-photonics graduate programe frisco trail clean up 2015 - present, Lake Fayetteville clean up 10/2015
+International Student Christian Association (ISCA) free yard sal and icecream social
+
+
+
+

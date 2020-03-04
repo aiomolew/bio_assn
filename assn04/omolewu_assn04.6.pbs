@@ -1,0 +1,17 @@
+#!/bin/bash
+#PBS -N BLAST
+#PBS -q student8core
+#PBS -j oe
+#PBS -m abe
+#PBS -M aiomolew@uark.edu
+#PBS -o BLAST.$PBS_JOBID
+#PBS -l nodes=1:ppn=8
+#PBS -l walltime=00:00:30:00
+
+
+module load blast/2.4.0+
+
+cat watermelon.fsa | makeblastdb -dbtype nucl -out watermelon_genome -title watermelon_genome
+
+blastn -penalty -3 -gapopen 5 -gapextend 2 -query nad4L.fasta -db watermelon_genome -outfmt 6 &> omolewu_assn04.6.out
+ 

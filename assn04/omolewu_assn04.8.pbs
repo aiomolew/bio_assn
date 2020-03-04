@@ -1,0 +1,22 @@
+#!/bin/bash
+#PBS -N BLAST
+#PBS -q student8core
+#PBS -j oe
+#PBS -m abe
+#PBS -M aiomolew@uark.edu
+#PBS -o BLAST.$PBS_JOBID
+#PBS -l nodes=1:ppn=8
+#PBS -l walltime=00:00:30:00
+
+
+module load blast/2.4.0+
+
+makeblastdb -in mt.fasta -dbtype nucl
+
+blastn -query mt.fasta -db mt.fasta -outfmt 6 &>> omolewu_assn04.8.out
+
+blastn -reward 5 -mismatch penalty -4 -gap open 8 -gap extension 6 -word size 7 -query mt.fasta -db mt.fasta -outfmt 6 &>> omolewu_assn04.8.out
+
+
+
+ 
