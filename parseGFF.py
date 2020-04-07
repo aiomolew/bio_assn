@@ -21,6 +21,7 @@ fasta_file =  args.fasta
 genome = SeqIO.read(fasta_file, 'fasta')
 
 
+dna_CDS = ""
 # Create an emptylist gene_name
 gene_names =[]
 # Read GFF file line by line
@@ -34,10 +35,25 @@ with open(gff_file, 'r') as gff_input:
 		if not line:
 			continue;
 		else:
-			start = line[3]
-			end = line[4]
-			print(start, end)
+			
+			if line[2] == "CDS":
+				start = int(line[3])
+				end = int(line[4])
+				dna_CDS = dna_CDS + genome.seq[start:end]
 
+
+#print(dna_CDS)
+
+#get the sequence length
+seq_len = len(dna_CDS.upper())
+
+#calculate GC content
+g_count = dna_CDS.upper().count('G')
+c_count = dna_CDS.upper().count('C')
+
+g_c_content = round(((g_count+ c_count) /seq_len)*100,2)
+
+print(g_c_content) 
 
 
 
