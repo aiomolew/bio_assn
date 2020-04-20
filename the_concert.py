@@ -8,4 +8,4 @@ column = ['match','start','end', 'length']
 print(*column,sep='\t')
 for match in regex:
     output = [match.group(), match.start(), match.end(), len(match.group())]
-    print(*output,sep=' \t')
+    print(*output,sep='\t')
